@@ -2,3 +2,24 @@ Install Composer
 Verify Composer Installation
 Install Laravel Using Composer
 Created new file in GitHub named as "Summer-Classes"
+
+#HOMEWORK
+Menus4
+4 each page
+From each page, click respective page
+titlr
+AUTO SAVE 
+
+In terminal type "php artisan serve" - Laravel opens
+routes ko web ma kun hit vayo vanni kata janxa vanerw tha pauxa
+
+day3
+ @include('header.header')
+
+  @yield('content')
+  
+ @include('footer.footer')
+
+ Master.blade.php create garyo 
+
+ easily access hos vanerw
