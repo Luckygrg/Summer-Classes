@@ -12,21 +12,27 @@ class HomeController extends Controller
         return view('index', compact('title'));
     }
 
-    public function news()
+    public function trending()
     {
-        $title = 'News Page';
-        return view('news', compact('title'));
+        $title = 'Trending Page';
+        return view('trending', compact('title'));
     }
 
-    public function contact()
+    public function celebrities()
     {
         $title = 'Contact Page';
-        return view('contact', compact('title'));
+        return view('celebrities', compact('title'));
     }
 
-    public function about()
+    public function login()
     {
         $title = 'Aboutus Page';
-        return view('about', compact('title'));
+        return view('login', compact('title'));
+    }
+
+    public function dashboard()
+    {
+        $title = 'Dashbaord';
+        return view('admin.dashboard', compact('title'));
     }
 }

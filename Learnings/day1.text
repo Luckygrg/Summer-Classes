@@ -23,3 +23,38 @@ day3
  Master.blade.php create garyo 
 
  easily access hos vanerw
+
+Monday:
+DD 
+Migration
+Seeding
+Value sending
+Display Info
+Looping through array
+order by, limiy
+get & first
+model
+
+#<form action="{{ route('admin.movies.delete', $movie->id) }}" method="POST" style="display: inline;"
+                        onsubmit="return confirm('Are you sure you want to delete this movie?')">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="btn btn-link text-danger p-0" title="Delete">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </form>
+
+
+Laravel installation
+Database
+Env
+Controller
+Seeder
+Migration
+route
+Filter
+Images
+CRUD
+Middleware
+Error Pages
+Model

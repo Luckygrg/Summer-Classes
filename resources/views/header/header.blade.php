@@ -1,65 +1,23 @@
-  <head>
-  <meta charset="utf-8">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{$title}}</title>
-
-  <!-- ===== Inline styles (no external CSS) ===== -->
+  <title>Pro Movie Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* --- Base --- */
     body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    /* --- Navigation bar --- */
-    .topnav {
-      background-color: #333;
-      overflow: hidden;
-    }
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    .topnav a:hover {
-      background-color: #ddd;
-      color: #000;
-    }
-    .topnav a.active {
-      background-color: #04AA6D;
+      background-color: #000;
       color: #fff;
     }
-
-  /* Footer */
-    footer {
-      background-color: #333;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 20px 0;
+    .navbar, footer {
+      background-color: #111;
     }
-
-    footer a {
-      color: #f2f2f2;
-      text-decoration: none;
+    .footer-text {
+      font-size: 14px;
+      color: #bbb;
     }
-
-    footer a:hover {
-      text-decoration: underline;
-      color: #ddd;
-    }
-
-    footer ul {
-      list-style: none;
-      padding: 0;
-      margin: 10px 0 0;
-    }
-
-    footer li {
-      display: inline;
-      margin: 0 10px;
+    .celebrity-img {
+      border-radius: 50%;
+      object-fit: cover;
     }
   </style>
 </head>

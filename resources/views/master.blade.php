@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  @include('header.header')
-
+ @include('header.header')
 
 <body>
-  @include('header.nav')
-
-  @yield('content')
+  <!-- HEADER -->
+ @include('header.nav')
   
- @include('footer.footer')
+
+  <!-- BODY -->
+   @yield('content')
+
+  <!-- FOOTER -->
+   @include('footer.footer')
 </body>
 </html>
